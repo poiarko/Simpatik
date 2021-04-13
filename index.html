@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Simpatik</title>
+</head>
+
+<body>
+
+    <div class="top">
+        <div class="wrapper">
+            <div class="top__inner">
+                <h1 class="top__inner-title">
+                    ВАШЕ НАГОРОДЖЕННЯ БУДЕ ПРИСКОРЕНО!
+                </h1>
+                <div class="top__inner-text">
+                    <p>
+                        Зазвичай доставка грошових посилок займає від декількох тижнів до місяця, але Ви отримаєте Приз
+                        упродовж 24 годин завдяки преміум-доставці “День у день”.
+                    </p>
+
+                </div>
+                <div class="top__inner-reward">
+                    <p>
+                        Ви отримаєте <span>317 000,00 гривень</span> протягом однієї доби з моменту відправлення!*
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="top_clock">
+                <img class="top_clock-mobile" src="./img/clock_mobile.svg" alt="">
+                <img class="top_clock-desktop" src="./img/clock_desktop.svg" alt="">
+            </div>
+
+
+            <div class="top__img">
+                <img class="top__img-mobile" src="./img/man_indicates_left.svg" alt="">
+                <img class="top__img-desktop" src="./img/man_tablet.svg" alt="">
+            </div>
+
+        </div>
+
+        <div class="top__clip-wrapper">
+
+            <div class="top__clip">
+                <div class="top__clip-line"></div>
+            </div>
+            
+        </div>
+        
+        <div class="top__clip-wrapperReverse">
+
+            <div class="top__clipReverse">
+                <div class="top__clip-lineReverse"></div>
+            </div>
+
+        </div>
+
+        <div class="about">
+            <div class="wrapper">
+                <div class="about__inner">
+
+                    <div class="about__card-wrapper">
+                        <div class="about__card">
+                            <div class="card__top">
+                                <p>
+                                    Єдине, що для цього потрібно, зазначити у документі МАРШРУТНИЙ ЛИСТ яке Кодове слово
+                                    Ви
+                                    назвете
+                                    кур'єру при передачі Вам грошей, як підтвердження того, що саме Ви є адресатом та
+                                    отримувачем
+                                    призу.
+                                </p>
+                            </div>
+                            <div class="card__bottom">
+                                <p>
+                                    Ще ніхто з переможців не був удостоєний преміум-доставки Призу "День у день"! Тому
+                                    для
+                                    отримання
+                                    317 000,00 гривень обов'язково заповніть МАРШРУТНИЙ ЛИСТ.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about__img-wrapper">
+                        <img src="./img/man_indicates_right.svg" alt="">
+                    </div>
+
+                    <div class="about__note-wrapper">
+                        <div class="about__note">
+                            <p>
+                                Окрім того, зараз у Вас є унікальна можливість отримати
+                                <span>
+                                    Додатковий приз!*
+                                </span>
+
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="time">
+        <div class="clock__wrapper">
+            <div class="clock">
+
+                <div class="hour">
+                    <div class="hr" id="hr"></div>
+                </div>
+                <div class="min">
+                    <div class="mn" id="mn"></div>
+                </div>
+                <div class="sec">
+                    <div class="sc" id="sc"></div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="numbers">
+            <div class="numbers__inner">
+    
+                <div class="numbers__block">
+                    <div class="numbers__inner-item">
+                        <input class="input" id="hou1" type="text" maxlength="1" value="1" min="0" max="2" onchange="onInputChange()">
+                    </div>
+                    <div class="numbers__inner-item">
+                        <input class="input" id="hou2" type="text" maxlength="1" value="8" min="0" max="9" onchange="onInputChange()">
+                    </div>
+                </div>
+    
+    
+                <div class="numbers__block">
+                    <div class="numbers__inner-item">
+                        <input class="input" id="min1" type="text" maxlength="1" value="0" min="0" max="5" onchange="onInputChange()">
+                    </div>
+                    <div class="numbers__inner-item">
+                        <input class="input" id="min2" type="text" maxlength="1" value="0" min="0" max="9" onchange="onInputChange()">
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>
