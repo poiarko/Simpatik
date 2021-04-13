@@ -1,7 +1,7 @@
-### monye-delivery
+## Monye delivery site
 
-## How to install project
+# How to install project
 npm install 
 
-## How to compile CSS
+# How to compile CSS
 npm run build
